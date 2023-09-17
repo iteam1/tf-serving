@@ -1,0 +1,22 @@
+# compressed files
+*.tar.gz
+*.tar
+*.zip
+
+# model files
+*.h5
+*.pb
+*.pd
+*.pth
+*.pt
+*.ckpt
+*.pbtxt
+*.onnx
+*.xml
+*.bin
+
+# folders
+env
+__pycache__
+.ipynb_checkpoints
+serving
