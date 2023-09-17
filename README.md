@@ -22,7 +22,28 @@ tf serving example
 
     # Returns => { "predictions": [2.5, 3.0, 4.5] }
 
+model config:
+
+    model_config_list {
+    config {
+        name: 'my_first_model'
+        base_path: '/tmp/my_first_model/'
+        model_platform: 'tensorflow'
+    }
+    config {
+        name: 'my_second_model'
+        base_path: '/tmp/my_second_model/'
+        model_platform: 'tensorflow'
+    }
+    }
+
+- example [here](docs/run.md)
+
 # references
+
+[serving_config](https://www.tensorflow.org/tfx/serving/serving_config)
+
+[serving_docker](https://www.tensorflow.org/tfx/serving/docker)
 
 [tensorflow/serving](https://github.com/tensorflow/serving)
 
