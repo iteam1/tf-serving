@@ -33,3 +33,5 @@ tf serving example
 [tf serving tutorial | tensorflow serving tutorial | Deep Learning Tutorial 48 (Tensorflow, Python)](https://www.youtube.com/watch?v=P-5sMcpTE0g)
 
 [Tự học Tensorflow | Bài 2 | Giới thiệu Tensorflow Serving](https://www.youtube.com/watch?v=5kVBAD2Cbj8)
+
+https://www.tensorflow.org/install/source#gpu

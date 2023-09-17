@@ -20,3 +20,4 @@ env
 __pycache__
 .ipynb_checkpoints
 serving
+saved_models
