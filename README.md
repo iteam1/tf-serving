@@ -24,6 +24,8 @@ tf serving example
 
 # references
 
+[tensorflow/serving](https://github.com/tensorflow/serving)
+
 [TensorFlow Serving](https://www.tensorflow.org/tfx/guide/serving)
 
 [48_tf_serving](https://github.com/codebasics/deep-learning-keras-tf-tutorial/tree/master/48_tf_serving)
