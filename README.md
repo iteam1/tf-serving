@@ -34,4 +34,4 @@ tf serving example
 
 [Tự học Tensorflow | Bài 2 | Giới thiệu Tensorflow Serving](https://www.youtube.com/watch?v=5kVBAD2Cbj8)
 
-https://www.tensorflow.org/install/source#gpu
+[tensorflow-gpu](https://www.tensorflow.org/install/source#gpu)
