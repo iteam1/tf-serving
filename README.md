@@ -39,6 +39,53 @@ model config:
 
 - example [here](docs/run.md)
 
+- saved_models
+
+        saved_models
+        ├── 1
+        │   ├── assets
+        │   │   └── vocab.txt
+        │   ├── fingerprint.pb
+        │   ├── keras_metadata.pb
+        │   ├── saved_model.pb
+        │   └── variables
+        │       ├── variables.data-00000-of-00001
+        │       └── variables.index
+        ├── 2
+        │   ├── assets
+        │   │   └── vocab.txt
+        │   ├── fingerprint.pb
+        │   ├── keras_metadata.pb
+        │   ├── saved_model.pb
+        │   └── variables
+        │       ├── variables.data-00000-of-00001
+        │       └── variables.index
+        └── 3
+            ├── assets
+            │   └── vocab.txt
+            ├── fingerprint.pb
+            ├── keras_metadata.pb
+            ├── saved_model.pb
+            └── variables
+                ├── variables.data-00000-of-00001
+                └── variables.index
+
+- inference_graph
+
+        inference_graph
+        ├── checkpoint
+        │   ├── checkpoint
+        │   ├── ckpt-0.data-00000-of-00001
+        │   └── ckpt-0.index
+        ├── pipeline.config
+        └── saved_model
+            ├── assets
+            ├── fingerprint.pb
+            ├── saved_model.pb
+            └── variables
+                ├── variables.data-00000-of-00001
+                └── variables.index
+
 # references
 
 [serving_config](https://www.tensorflow.org/tfx/serving/serving_config)
